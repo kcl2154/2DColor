@@ -1,11 +1,11 @@
-# Final Project Coding Environment Guide
+# 2DColor Coding Environment Guide
 
 ## Quick Start
 
 1. **Download and Extract**
    ```bash
-   unzip Final_Project_kcl2154.zip
-   cd Final_Project_kcl2154
+   unzip 2DColor.zip
+   cd 2DColor
    ```
 
 2. **Set Up Python Environment**
@@ -39,7 +39,7 @@
 
 ## Project Structure
 ```
-Final_Project_kcl2154/
+2DColor/
 ├── ModifiedCNN/              # Main model and processing code
 │   ├── predict_image.py      # Script for processing single images
 │   ├── animation_loop.py     # Script for processing multiple frames
