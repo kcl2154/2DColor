@@ -19,10 +19,18 @@
 *.h5
 *.hdf5
 
-# Data directories
-data/
-dataset/
-results/
+# Large GIF files (over 2MB)
+*.gif
+
+# Training samples (too many files)
+ModifiedCNN/MODELS_ENHANCED_FIXED/samples/
+
+# Data directories with large files (but allow empty structure)
+data/ANIMATION_INPUT/
+data/cinderella_inputs/
+data/*.png
+data/*.jpg
+data/*.gif
 
 # Python cache
 __pycache__/
