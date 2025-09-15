@@ -94,4 +94,13 @@ logs/
 
 # Temporary files
 *.tmp
-*.temp 
+*.temp
+
+# Private keys and certificates
+*.pem
+*.key
+*.crt
+*.cer
+
+# Large dataset directory (exclude if it's a directory)
+# dataset/ is actually a file with dataset info, so we'll include it 
