@@ -42,7 +42,7 @@ To turn colored frames into an animation, take the resulting folder and save it 
 3. **Prepare Your Files**
    - Place your line art frames in `tests/ANIMATION_INPUT/`
    - Place your reference image in `tests/REFERENCE_IMAGE/`
-   - The output will be saved in `tests/image_output/` or `tests/output/`
+   - The output will be saved in `results/`
 
 4. **Run the Script**
    ```bash
