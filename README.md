@@ -1,3 +1,19 @@
+# 2DColor
+*2DColor: Automated Coloring for 2D animation*
+
+By Kelly Liu
+
+
+<img width="788" height="266" alt="comparison_output" src="https://github.com/user-attachments/assets/a274b4ae-55fa-4d62-a23e-3fcfa33ef3b6" />
+
+<img width="788" height="266" alt="comparison_anastasia" src="https://github.com/user-attachments/assets/3d31a21f-2016-424d-9827-cba703854b94" />
+
+## Introduction
+The repository contains the testing codes and pretrained weights for 2DColor. Test input images can be found in the /data folder and subsequent results are found in the results/ folder.
+To turn colored frames into an animation, take the resulting folder and save it in order to convert as a gif or MP4.
+
+2DColor is a coloring algorithm that takes a colored sample frame of animation and applies it to all other uncolored frames, automating the coloring process.
+
 # 2DColor Coding Environment Guide
 
 ## Quick Start
@@ -49,10 +65,17 @@
 │   └── MODELS_ENHANCED_FIXED/  # Pre-trained model
 │       └── checkpoints/
 │           └── best_model_clean.pth
-├── tests/                   # Test images and outputs
+├── data/                   # Test images and outputs
 │   ├── ANIMATION_INPUT/     # Put your line art frames here
 │   ├── REFERENCE_IMAGE/     # Put your reference image here
-│   └── image_output/       # Colored frames will be saved here
+│       └── anastasia.png      # Includes 3 sample images
+│       └── ashitaka.png
+│       └── kaya.png
+├── results/
+│   ├── image_output/       # Colored frames will be saved here
+│   ├──  output/          #Animation output frames will be saved here
+│   ├──  animation_output_gif/         #Sample animation gif saved here
+│
 ├── requirements.txt        # Python dependencies
 └── README.md              # This file
 ```
